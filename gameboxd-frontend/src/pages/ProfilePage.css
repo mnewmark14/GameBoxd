@@ -1,0 +1,189 @@
+/* ProfilePage.css */
+
+/* Profile container */
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile header */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  /* Avatar */
+  .profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 16px;
+    object-fit: cover;
+  }
+  
+  /* Profile details */
+  .profile-details {
+    text-align: left;
+  }
+  
+  .profile-username {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-bio {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .profile-stats {
+    font-size: 14px;
+    color: #888;
+    margin-top: 8px;
+  }
+  
+  /* Logout button */
+  .logout-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Divider */
+  .divider {
+    margin: 24px 0;
+    border: 1px solid #ddd;
+  }
+  
+  /* Reviewed games */
+  .reviewed-games-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .reviewed-games-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reviewed-game-item {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* No reviews message */
+  .no-reviews-message {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Error message */
+  .error-container {
+    text-align: center;
+    color: red;
+    padding: 16px;
+  }
+  
+  .error-message {
+    background-color: #ffe5e5;
+    color: #d9534f;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  /* Loader */
+  .loader-container {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Navigation Buttons */
+.profile-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .nav-button {
+    background-color: #6c757d;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Logout button */
+  .logout-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .custom-lists-container {
+    margin-top: 20px;
+  }
+  
+  .custom-list {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .custom-list-name {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .custom-list-games {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .custom-list-game-item {
+    margin: 5px 0;
+  }
+  
+  .no-games-message,
+  .no-custom-lists-message {
+    color: #888;
+  }
+  

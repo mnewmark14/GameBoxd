@@ -1,0 +1,152 @@
+/* GameDetails.css */
+
+.game-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.game-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.game-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.game-description,
+.game-release,
+.game-rating {
+  margin-bottom: 8px;
+}
+
+.rating-section,
+.review-section {
+  margin: 16px 0;
+  text-align: left;
+}
+
+.rating-section select {
+  padding: 8px;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.rating-section button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rating-section button:hover {
+  background-color: #218838;
+}
+
+.review-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.review-section button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.review-section button:hover {
+  background-color: #218838;
+}
+
+.user-reviews {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.review-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: #f9f9f9;
+}
+
+.review-card p {
+  margin: 8px 0;
+}
+
+.review-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.review-card button {
+  margin-right: 8px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.review-card button:hover {
+  background-color: #0056b3;
+}
+
+.review-card button:last-child {
+  background-color: #dc3545;
+}
+
+.review-card button:last-child:hover {
+  background-color: #c82333;
+}
+
+.error-message {
+  color: red;
+  background-color: #ffe5e5;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
